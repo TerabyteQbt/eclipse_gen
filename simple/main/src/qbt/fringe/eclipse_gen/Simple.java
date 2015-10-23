@@ -89,7 +89,7 @@ public class Simple {
         for(String e : classpaths.build()) {
             classpath.add("    " + e);
         }
-        classpath.add("    <classpathentry kind=\"output\" path=\"bin\"/>");
+        classpath.add("    <classpathentry kind=\"output\" path=\".ecbuild\"/>");
         classpath.add("</classpath>");
         QbtUtils.writeLines(Paths.get(".classpath"), classpath.build());
 
