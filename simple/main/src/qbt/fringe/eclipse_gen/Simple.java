@@ -11,7 +11,7 @@ import qbt.QbtHashUtils;
 import qbt.QbtUtils;
 
 public class Simple {
-    private static final String[] POTENTIAL_SOURCE_DIRECTORY = new String[]{"src", "test"};
+    private static final String[] POTENTIAL_SOURCE_DIRECTORY = new String[]{"src", "test", ".src.gen"};
 
     public static void main(String[] args) throws IOException {
         Path inputsDir = Paths.get(System.getenv("INPUT_DEV_PROTO_DIR"));
